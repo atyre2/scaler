@@ -13,7 +13,7 @@ almost any sort of statistical model. Although function `scale()` will scale
 scale and center numeric matrices, it always returns a `matrix`. Most model
 fitting functions take data.frames. And although `scale()` will take a
 data.frame as an input, it fails with an error if there is even one column
-that is a categorical variable. The functions in this package provide typesafe
+that is a categorical variable. The functions in this package provide type-stable
 scaling and/or centering while ignoring
 non-numeric columns. Like `scale()`, the constants used are stored as
 attributes in the result, enabling automatic undoing of these operations.
