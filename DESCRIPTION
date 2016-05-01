@@ -1,0 +1,15 @@
+Package: scaler
+Type: Package
+Title: Center and Scale Data Frames
+Version: 0.0.0.9000
+Authors@R: person("Andrew", "Tyre", email = "atyre2@unl.edu", role = c("cre", "aut"))
+Description: scaler functions take data.frames as the first argument and
+    and return dataframes with the same internal structure. Numeric variables
+    are scaled or centered. The constants used to scale and/or center are
+    stored as attributes.
+Depends:
+    R (>= 3.2.3)
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: testthat
