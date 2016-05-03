@@ -2,3 +2,5 @@
 
 export(center_df)
 export(scale_df)
+export(uncenter_df)
+export(unscale_df)
